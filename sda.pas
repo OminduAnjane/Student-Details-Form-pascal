@@ -6,7 +6,7 @@ program S_T_A (input,output);
      Begin
           write('Welcome To Student Details Form');
           writeln('Enter First Name');
-          Read(name);
+          Read(namey);
           writeln('Enter School Name');
           Read(school);
           writeln('Enter Your Age');
@@ -18,7 +18,7 @@ program S_T_A (input,output);
           writeln('Enter Your Father s Name');
           Read(fatherN);
             
-            name := name;
+            Namey := namey;
             school := school;
             MotherN := motherN;
             FatherN := fatherN;
@@ -26,7 +26,7 @@ program S_T_A (input,output);
             Grade := grade;
             
              writeln('Student Details');
-             writeln('Your Name' ,name);
+             writeln('Your Name' ,Namey);
              writeln('Your School Name' ,school);
              writeln('Your Age' ,Age);
              writeln('Your Grade' ,Grade);
