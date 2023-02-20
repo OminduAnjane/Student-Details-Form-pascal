@@ -1,5 +1,5 @@
 program S_T_A (input,output);   
-               name,school,motherN,fatherN:string;
+               namey,school,motherN,fatherN:string;
                age:integer,
                grade:char;
            
