@@ -1,22 +1,22 @@
 program S_T_A (input,output);   
-               name,school,motherN,fatherN:string,
+               name,school,motherN,fatherN:string;
                age:integer,
                grade:char;
            
      Begin
           write('Welcome To Student Details Form');
           writeln('Enter First Name');
-          Read(name)
+          Read(name);
           writeln('Enter School Name');
-          Read(school)
+          Read(school);
           writeln('Enter Your Age');
-          Read(age)
+          Read(age);
           writeln('Enter Your Grade');
-          Read('grade')
+          Read('grade');
           writeln('Enter Your Mother s Name');
-          Read(motherN)
+          Read(motherN);
           writeln('Enter Your Father s Name');
-          Read(fatherN)
+          Read(fatherN);
             
             name := name;
             school := school;
